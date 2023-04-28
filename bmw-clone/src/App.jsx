@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import FindYourBMW from "./components/FindYourBMW"
 import Electric from "./components/Electric"
 import WallBox from "./components/WallBox"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <FindYourBMW />
       <Electric />
       <WallBox />
+      <Footer />
     </>
   )
 }
