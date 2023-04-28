@@ -1,12 +1,15 @@
 import React from "react"
-import Header from "./components/Header"
 import Hero from "./components/Hero"
+import FindYourBMW from "./components/FindYourBMW"
+import Electric from "./components/Electric"
 
 function App() {
 
   return (
     <>
       <Hero />
+      <FindYourBMW />
+      <Electric />
     </>
   )
 }
