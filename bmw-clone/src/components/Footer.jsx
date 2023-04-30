@@ -10,8 +10,8 @@ const Footer = () => {
       <div className='px-32'>
         <div className='grid grid-cols-4 pb-16'>
           <div className='px-4'>
-            <p className='text-[#4d4d4d] mb-3 tracking-widest'>RESTA IN CONTATTO</p>
-            <ul className='text-[#4d4d4d] font-semibold flex flex-col gap-3 text-xl'>
+            <p className='text-[#4d4d4d] mb-3 tracking-widest text-xs'>RESTA IN CONTATTO</p>
+            <ul className='text-[#4d4d4d] font-semibold flex flex-col gap-3 text-sm'>
               <li className='cursor-pointer hover:text-[#262626]'>Contatti BMW</li>
               <li className='cursor-pointer hover:text-[#262626]'>Concessionarie & Centri Service BMW</li>
               <li className='cursor-pointer hover:text-[#262626]'>Preventivo</li>
@@ -20,8 +20,8 @@ const Footer = () => {
           </div>
 
           <div className='px-4'>
-            <p className='text-[#4d4d4d] mb-3 tracking-widest'>INSIDE BMW</p>
-            <ul className='text-[#4d4d4d] font-semibold flex flex-col gap-3 text-xl'>
+            <p className='text-[#4d4d4d] mb-3 tracking-widest text-xs'>INSIDE BMW</p>
+            <ul className='text-[#4d4d4d] font-semibold flex flex-col gap-3 text-sm'>
               <li className='cursor-pointer hover:text-[#262626]'>Gamma BMW</li>
               <li className='cursor-pointer hover:text-[#262626]'>Informazioni sugli pneumatici</li>
               <li className='cursor-pointer hover:text-[#262626]'>BMW Business</li>
@@ -33,8 +33,8 @@ const Footer = () => {
           </div>
 
           <div className='px-4'>
-            <p className='text-[#4d4d4d] mb-3 tracking-widest'>TERMINI DI UTILIZZO</p>
-            <ul className='text-[#4d4d4d] font-semibold flex flex-col gap-3 text-xl'>
+            <p className='text-[#4d4d4d] mb-3 tracking-widest text-xs'>TERMINI DI UTILIZZO</p>
+            <ul className='text-[#4d4d4d] font-semibold flex flex-col gap-3 text-sm'>
               <li className='cursor-pointer hover:text-[#262626]'>Informazioni legali ConnectedDrive</li>
               <li className='cursor-pointer hover:text-[#262626]'>Codice etico</li>
               <li className='cursor-pointer hover:text-[#262626]'>Licenza SIAE Internet AMC 3880</li>
@@ -45,30 +45,30 @@ const Footer = () => {
           </div>
 
           <div className='px-4'>
-            <p className='text-[#4d4d4d] mb-3 tracking-widest'>TERMINI DI UTILIZZO</p>
-            <ul className='text-[#4d4d4d] font-semibold text-xl'>
+            <p className='text-[#4d4d4d] mb-3 tracking-widest text-xs'>TERMINI DI UTILIZZO</p>
+            <ul className='text-[#4d4d4d] font-semibold text-sm'>
               <li className='cursor-pointer hover:text-[#262626]'>Connected Drive Legal Information <FontAwesomeIcon icon={faFilePdf} style={{color: "#262626",}} /></li>
             </ul>
           </div>
         </div>
 
         <div className='w-full px-4 py-12'>
-          <ul className='flex gap-10'>
-            <li><FontAwesomeIcon icon={faFacebookF} style={{color: "#262626",}} size='xl' /></li>
-            <li><FontAwesomeIcon icon={faTwitter} style={{color: "#262626",}} size='xl' /></li>
-            <li><FontAwesomeIcon icon={faInstagram} style={{color: "#262626",}} size='xl' /></li>
-            <li><FontAwesomeIcon icon={faYoutube} style={{color: "#262626",}} size='xl' /></li>
-            <li><FontAwesomeIcon icon={faLinkedinIn} style={{color: "#262626",}} size='xl' /></li>
+          <ul className='flex gap-8'>
+            <li className='cursor-pointer'><FontAwesomeIcon icon={faFacebookF} style={{color: "#262626",}} /></li>
+            <li className='cursor-pointer'><FontAwesomeIcon icon={faTwitter} style={{color: "#262626",}} /></li>
+            <li className='cursor-pointer'><FontAwesomeIcon icon={faInstagram} style={{color: "#262626",}} /></li>
+            <li className='cursor-pointer'><FontAwesomeIcon icon={faYoutube} style={{color: "#262626",}} /></li>
+            <li className='cursor-pointer'><FontAwesomeIcon icon={faLinkedinIn} style={{color: "#262626",}} /></li>
           </ul>
         </div>
       </div>
       
 
       <div className='bg-white'>
-        <div className='flex justify-between py-12 px-32 '>
-          <div className='text-lg px-4'>© BMW AG 2023</div>
+        <div className='flex justify-between py-6 px-32 '>
+          <div className='text-sm px-4'>© BMW AG 2023</div>
           <div>
-            <ul className='flex gap-8 text-lg text-[#262626] font-semibold px-4'>
+            <ul className='flex gap-8 text-sm text-[#262626] font-semibold px-4'>
               <li className='cursor-pointer hover:text-[#1653a8]'>Note Legali</li>
               <li className='cursor-pointer hover:text-[#1653a8]'>Informativa Privacy</li>
               <li className='cursor-pointer hover:text-[#1653a8]'>Cookies</li>
