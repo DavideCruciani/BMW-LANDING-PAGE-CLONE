@@ -7,20 +7,20 @@ const Electric = () => {
         <div className='h-full w-full bg-gradient-70deg from-[#0006] to-transparent font-Poppins leading-[4rem] text-white px-32 flex items-center'>
           <div className='flex flex-col justify-center'>
             <div className='px-4'>
-              <p className='text-white text-xl font-semibold mb-4'>BMW</p>
+              <p className='text-white text-lg font-semibold mb-4'>BMW</p>
             </div>
 
             <div className='flex items-center mb-6 px-4'>
-              <img className='mr-4 w-36' src={LogoElectric} alt="Gamma Elettrica" />
-              <h2 className='text-8xl font-light'>Gamma Elettrica.</h2>
+              <img className='mr-4 w-28' src={LogoElectric} alt="Gamma Elettrica" />
+              <h2 className='text-6xl font-light'>Gamma Elettrica.</h2>
             </div>
             
             <div className='px-4'>
-              <h2 className='text-8xl font-light mb-14'>Piacere di guidare. 100% <br/>electric.</h2>
+              <h2 className='text-6xl font-light mb-14'>Piacere di guidare. 100% <br/>electric.</h2>
             </div>
 
             <div className='px-4'>
-              <button className='border-2 hover:shadow-buttonWhite border-white px-6 py-5 text-xl font-semibold rounded-[3px]'>Scopri la gamma elettrica BMW</button>
+              <button className='border-[1px] hover:shadow-buttonWhite border-white w-[28rem] py-4 text-base font-semibold rounded-[3px]'>Scopri la gamma elettrica BMW</button>
             </div>
           </div>
 
