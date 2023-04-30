@@ -65,8 +65,8 @@ const Footer = () => {
       
 
       <div className='bg-white'>
-        <div className='flex justify-between py-6 px-20 '>
-          <div className='text-sm px-4'>© BMW AG 2023</div>
+        <div className='flex justify-between py-8 px-20 '>
+          <div className='text-sm px-4 font-light'>© BMW AG 2023</div>
           <div>
             <ul className='flex gap-8 text-sm text-[#262626] font-semibold px-4'>
               <li className='cursor-pointer hover:text-[#1653a8]'>Note Legali</li>
