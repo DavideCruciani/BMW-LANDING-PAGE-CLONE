@@ -14,17 +14,17 @@ const FindYourBMW = () => {
         <div className='px-4'>
           <img src={Stock} alt="Trova una Nuova BMW" />
           <p className='text-2xl mb-16'>Trova una Nuova BMW</p>
-          <button className='border-[1px] hover:shadow-buttonBlack border-black px-6 py-5 text-base font-semibold rounded-[3px]'>Vetture disponibili</button>
+          <button className='border-[1px] hover:shadow-buttonBlack border-black px-6 py-4 text-base font-semibold rounded-[3px]'>Vetture disponibili</button>
         </div>
         <div className='px-4'>
           <img src={testDrive} alt="Prenota un Test Drive" />
           <p className='text-2xl mb-16'>Prenota un Test Drive</p>
-          <button className='border-[1px] hover:shadow-buttonBlack border-black px-6 py-5 text-base font-semibold rounded-[3px]'>Test Drive</button>
+          <button className='border-[1px] hover:shadow-buttonBlack border-black px-6 py-4 text-base font-semibold rounded-[3px]'>Test Drive</button>
         </div>
         <div className='px-4'>
           <img src={Con} alt="Configura la Tua BMW" />
           <p className='text-2xl mb-16'>Configura la Tua BMW</p>
-          <button className='border-[1px] hover:shadow-buttonBlack border-black px-6 py-5 text-base font-semibold rounded-[3px]'>Configuratore & prezzo</button>
+          <button className='border-[1px] hover:shadow-buttonBlack border-black px-6 py-4 text-base font-semibold rounded-[3px]'>Configuratore & prezzo</button>
         </div>
       </div>
     </section>
