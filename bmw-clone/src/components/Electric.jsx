@@ -4,7 +4,7 @@ import LogoElectric from '../assets/LogoElectric.png'
 const Electric = () => {
   return (
       <section className='bg-[url(/src/assets/ElectricCars.webp)] bg-center w-full h-[53rem] bg-no-repeat mb-10'>
-        <div className='h-full w-full bg-gradient-70deg from-[#0006] to-transparent font-Poppins leading-[4rem] text-white px-32 flex items-center'>
+        <div className='h-full w-full bg-gradient-70deg from-[#0006] to-transparent font-Poppins leading-[4rem] text-white px-20 flex items-center'>
           <div className='flex flex-col justify-center'>
             <div className='px-4'>
               <p className='text-white text-lg font-semibold mb-4'>BMW</p>

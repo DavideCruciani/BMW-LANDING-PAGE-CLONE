@@ -5,7 +5,7 @@ import { faLocationDot, faMagnifyingGlass, faShoppingCart, faUser } from '@forta
 
 const Header = () => {
   return (
-    <div className='px-32 w-full bg-gradient-to-b from-[#0006] to-transparent'>
+    <div className='px-24 w-full bg-gradient-to-b from-[#0006] to-transparent'>
 
         <nav className='flex justify-between h-28 border-b-2'>
         <div className='flex items-center w-full'>

@@ -7,9 +7,9 @@ const Hero = () => {
     <section className='bg-[url(/src/assets/bmw-hero.webp)] h-[115vh] bg-cover bg-no-repeat'>
       <div className='w-full h-full bg-gradient-70deg from-[#0006] to-transparent'>
         <Header />
-        <div className='px-32 w-full pt-6'>
+        <div className='px-20 w-full pt-6'>
 
-          <div className='mb-52'>
+          <div className='mb-52 px-4'>
             <p className='text-white font-Poppins text-base'><span className='font-semibold'>Piacere</span> di guidare</p>
           </div>
 

@@ -5,7 +5,7 @@ import Con from '../assets/ICON_CON.webp'
 
 const FindYourBMW = () => {
   return (
-    <section className='text-center my-16 font-Poppins px-32 text-[#262626]'>
+    <section className='text-center my-16 font-Poppins px-20 text-[#262626]'>
       <div className='px-4'>
         <h3 className='text-xl font-semibold mb-8'>SHOPPING TOOLS</h3>
         <h2 className='text-7xl font-light'>TROVA LA TUA BMW.</h2>
