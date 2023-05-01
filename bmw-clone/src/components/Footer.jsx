@@ -5,9 +5,9 @@ import { faFacebookF, faTwitter, faInstagram, faYoutube, faLinkedinIn } from '@f
 
 const Footer = () => {
   return (
-    <footer className='bg-[#f6f6f6] border-2 border-t-[#e2e2e2] font-Poppins pt-24'>
+    <footer className='bg-[#f6f6f6] border-2 border-t-[#e2e2e2] font-Poppins pt-24 '>
 
-      <div className='px-20'>
+      <div className='px-20 max-w-[2600px] mx-auto'>
         <div className='grid grid-cols-4 pb-16'>
           <div className='px-4'>
             <p className='text-[#4d4d4d] mb-3 tracking-widest text-xs'>RESTA IN CONTATTO</p>
@@ -64,7 +64,7 @@ const Footer = () => {
       </div>
       
 
-      <div className='bg-white'>
+      <div className='bg-white max-w-[2600px] mx-auto'>
         <div className='flex justify-between py-8 px-20 '>
           <div className='text-sm px-4 font-light'>© BMW AG 2023</div>
           <div>
