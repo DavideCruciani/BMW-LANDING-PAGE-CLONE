@@ -12,7 +12,7 @@ const Hero = () => {
         <div className='px-12 xl:px-20 w-full h-full pt-6 flex items-center'>
 
           <div className='px-4 absolute top-28'>
-            <p className='text-white font-Poppins text-base'><span className='font-semibold'>Piacere</span> di guidare</p>
+            <p className='text-white font-Poppins text-base hidden xl:block'><span className='font-semibold'>Piacere</span> di guidare</p>
           </div>
 
           <div className='px-4 flex flex-col w-full'>
