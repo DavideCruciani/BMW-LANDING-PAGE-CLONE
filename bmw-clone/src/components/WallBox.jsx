@@ -3,7 +3,7 @@ import WallBoxIMG from '../assets/wallbox.webp'
 
 const WallBox = () => {
   return (
-    <section className='grid grid-cols-2 font-Poppins text-[#262626] max-w-[2600px] mx-auto px-20 mb-10'>
+    <section className='grid grid-cols-2 font-Poppins text-[#262626] max-w-[2600px] mx-auto px-4 md:px-12 xl:px-22 mb-10'>
       <div className='px-4'>
         <img src={WallBoxIMG} alt="Bmw wallbox" />
       </div>

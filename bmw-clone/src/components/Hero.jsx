@@ -16,13 +16,13 @@ const Hero = () => {
 
       <div className='w-full h-full bg-gradient-top lg:bg-gradient-70deg lg:from-[#0006] to-transparent absolute top-0'>
         <Header />
-        <div className='px-4 md:px-10 xl:px-20 w-full h-full pt-6 flex items-end lg:items-center'>
+        <div className='px-4 md:px-12 xl:px-22 w-full h-full pt-6 flex items-end lg:items-center'>
 
-          <div className='px-4 absolute top-28'>
+          <div className='px-2 absolute top-28'>
             <p className='text-white font-Poppins text-base hidden xl:block'><span className='font-semibold'>Piacere</span> di guidare</p>
           </div>
 
-          <div className='px-4 flex flex-col w-full items-center lg:items-start'>
+          <div className='px-2 flex flex-col w-full items-center lg:items-start'>
 
             <div className='mb-6'>
               <p className='text-white font-bold font tracking-wider text-base'>THE</p>

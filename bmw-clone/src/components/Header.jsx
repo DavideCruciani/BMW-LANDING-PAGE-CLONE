@@ -15,9 +15,9 @@ const Header = () => {
 
   return (
     <>
-      <div className='px-8 md:px-14 xl:px-24 w-full bg-gradient-to-b from-[#0006] to-transparent'>
+      <div className='px-4 md:px-12 xl:px-22 w-full bg-gradient-to-b from-[#0006] to-transparent'>
 
-        <nav className='flex justify-between h-20 xl:border-b-2'>
+        <nav className='flex justify-between h-16 md:h-20 xl:border-b-2'>
           <div className='flex items-center w-full'>
             <img className='mr-8 w-[2.5rem] md:w-[3.25rem] cursor-pointer' src={Logo} alt="BMW logo" />
             <ul className='h-full hidden xl:flex font-Poppins font-semibold text-white text-base'>
@@ -43,7 +43,7 @@ const Header = () => {
       </div>
 
       <div className={showNav ? 'bg-white fixed top-0 left-0 right-0 w-full h-full xl:hidden -translate-x-0 ease duration-300' : 'bg-white fixed top-0 left-0 right-0 w-full h-full xl:hidden translate-x-full ease duration-150'}>
-        <nav className='flex justify-between h-16 md:h-20 border-b-[1px] border-b-[#bbb]  px-8 md:px-16 xl:px-24'>
+        <nav className='flex justify-between h-16 md:h-20 border-b-[1px] border-b-[#bbb]  px-4 md:px-12 xl:px-22'>
           <div className='flex items-center w-full justify-between'>
             <img className='w-[2.5rem] md:w-[3.25rem] cursor-pointer' src={GreyLogo} alt="BMW logo" />
             <ul className='flex h-full text-[#666]'>
