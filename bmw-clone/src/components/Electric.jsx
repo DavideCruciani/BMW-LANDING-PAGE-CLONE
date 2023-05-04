@@ -32,7 +32,7 @@ const Electric = () => {
             </div>
 
             <div className='px-2'>
-              <button className='border-[1px] hover:shadow-buttonWhite border-white w-full md:w-[50%] xl:w-[45%] py-4 text-base font-semibold rounded-[3px] mb-12 lg:mb-0'>Scopri la gamma elettrica BMW</button>
+              <button className='border-[1px] hover:shadow-buttonWhite border-white w-full md:w-[50%] xl:w-[45%] 2xl:w-[25%] py-4 text-base font-semibold rounded-[3px] mb-12 lg:mb-0'>Scopri la gamma elettrica BMW</button>
             </div>
           </div>
 
