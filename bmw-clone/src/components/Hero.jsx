@@ -2,20 +2,27 @@ import React from 'react'
 import Header from './Header'
 import smallLogo from '../assets/bmw-small-logo.png'
 import hero from '../assets/bmw-hero.webp'
+import hero1024 from '../assets/bmw-1024-hero.webp'
+import hero600 from '../assets/bmw-600-hero.webp'
 
 const Hero = () => {
   return (
     <section className='relative max-w-[2600px] mx-auto'>
-      <img className='bg-cover bg-no-repeat w-full' src={hero} alt="/" />
-      <div className='w-full h-full bg-gradient-70deg from-[#0006] to-transparent absolute top-0'>
+      <picture>
+        <source media='(min-width: 1024px)' srcSet={hero} className='bg-cover bg-no-repeat w-full' />
+        <source media='(min-width: 768px)' srcSet={hero1024} className='bg-cover bg-no-repeat w-full' />
+        <img className='bg-contain bg-no-repeat w-full' src={hero600} alt="/" />
+      </picture>
+
+      <div className='w-full h-full bg-gradient-top lg:bg-gradient-70deg lg:from-[#0006] to-transparent absolute top-0'>
         <Header />
-        <div className='px-12 xl:px-20 w-full h-full pt-6 flex items-center'>
+        <div className='px-4 md:px-10 xl:px-20 w-full h-full pt-6 flex items-end lg:items-center'>
 
           <div className='px-4 absolute top-28'>
             <p className='text-white font-Poppins text-base hidden xl:block'><span className='font-semibold'>Piacere</span> di guidare</p>
           </div>
 
-          <div className='px-4 flex flex-col w-full'>
+          <div className='px-4 flex flex-col w-full items-center lg:items-start'>
 
             <div className='mb-6'>
               <p className='text-white font-bold font tracking-wider text-base'>THE</p>
@@ -25,13 +32,13 @@ const Hero = () => {
               <h1 className=' text-[8rem] xl:text-[14rem] 2xl:text-[16rem] font-light xl:-ml-2 leading-none font-Poppins text-white'>7</h1>
             </div>
 
-            <div className='flex items-center mb-8'>
+            <div className='flex items-center mb-6'>
               <img className='w-10 xl:w-14 mr-2' src={smallLogo} alt="BMW logo" />
               <h2 className='text-[1.5rem] xl:text-[1.75rem] 2xl:text-[2.25rem] font-light text-white font-Poppins'>NUOVA BMW SERIE 7 M.</h2>
             </div>
 
-            <div className='pb-32'>
-              <button className='bg-[#1c69d4] hover:bg-[#1653a8] w-[25%] py-4 text-base rounded-sm font-Poppins text-white font-semibold'>Scopri di più</button>
+            <div className='mb-28 lg:mb-32 flex w-full justify-center lg:block'>
+              <button className='bg-[#1c69d4] hover:bg-[#1653a8] w-full md:w-[35%] lg:w-[25%] py-4 text-base rounded-sm font-Poppins text-white font-semibold'>Scopri di più</button>
             </div>
           </div>
         </div>

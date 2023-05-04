@@ -15,11 +15,11 @@ const Header = () => {
 
   return (
     <>
-      <div className='px-16 xl:px-24 w-full bg-gradient-to-b from-[#0006] to-transparent'>
+      <div className='px-8 md:px-14 xl:px-24 w-full bg-gradient-to-b from-[#0006] to-transparent'>
 
-        <nav className='flex justify-between h-16 md:h-20 xl:border-b-2'>
+        <nav className='flex justify-between h-20 xl:border-b-2'>
           <div className='flex items-center w-full'>
-            <img className='mr-8 w-[3.25rem] cursor-pointer' src={Logo} alt="BMW logo" />
+            <img className='mr-8 w-[2.5rem] md:w-[3.25rem] cursor-pointer' src={Logo} alt="BMW logo" />
             <ul className='h-full hidden xl:flex font-Poppins font-semibold text-white text-base'>
               <li className='p-3 h-full flex items-center cursor-pointer border-b-[4px] border-t-[4px] border-transparent hover:border-b-[#1c69d4]'>Modelli</li>
               <li className='p-3 h-full flex items-center cursor-pointer border-b-[4px] border-t-[4px] border-transparent hover:border-b-[#1c69d4]'>All Electric</li>
