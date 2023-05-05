@@ -10,7 +10,6 @@ const Header = () => {
 
   function ShowNavbar() {
     setShowNav(!showNav)
-    console.log(showNav)
   }
 
   return (
