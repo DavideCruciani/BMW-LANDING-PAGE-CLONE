@@ -24,17 +24,17 @@ const Hero = () => {
 
           <div className='px-2 flex flex-col w-full items-center lg:items-start'>
 
-            <div className='mb-6'>
-              <p className='text-white font-bold font tracking-wider text-base'>THE</p>
+            <div className='mb-2 sm:mb-6'>
+              <p className='text-white font-bold font tracking-wider text-sm sm:text-base'>THE</p>
             </div>
 
             <div className='flex'>
-              <h1 className=' text-[8rem] xl:text-[14rem] 2xl:text-[16rem] font-light xl:-ml-2 leading-none font-Poppins text-white'>7</h1>
+              <h1 className='text-[6rem] sm:text-[8rem] xl:text-[14rem] 2xl:text-[16rem] font-light xl:-ml-2 leading-none font-Poppins text-white'>7</h1>
             </div>
 
             <div className='flex items-center mb-6'>
               <img className='w-10 xl:w-14 mr-2' src={smallLogo} alt="BMW logo" />
-              <h2 className='text-[1.5rem] xl:text-[1.75rem] 2xl:text-[2.25rem] font-light text-white font-Poppins'>NUOVA BMW SERIE 7 M.</h2>
+              <h2 className='text-[1.25rem] sm:text-[1.5rem] xl:text-[1.75rem] 2xl:text-[2.25rem] font-light text-white font-Poppins break-words text-center'>NUOVA BMW SERIE 7 M.</h2>
             </div>
 
             <div className='mb-28 lg:mb-32 flex w-full justify-center lg:block'>

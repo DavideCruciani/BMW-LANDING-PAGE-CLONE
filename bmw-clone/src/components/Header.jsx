@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Logo from '../assets/bmw-logo.svg'
 import GreyLogo from '../assets/bmw-grey-logo.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -11,6 +11,16 @@ const Header = () => {
   function ShowNavbar() {
     setShowNav(!showNav)
   }
+
+  useEffect(() => {
+    function handleResize() {
+      setShowNav(false);
+    }
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
     <>
