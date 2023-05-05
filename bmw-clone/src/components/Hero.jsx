@@ -37,7 +37,7 @@ const Hero = () => {
               <h2 className='text-[1.25rem] sm:text-[1.5rem] xl:text-[1.75rem] 2xl:text-[2.25rem] font-light text-white font-Poppins break-words text-center'>NUOVA BMW SERIE 7 M.</h2>
             </div>
 
-            <div className='mb-28 lg:mb-32 flex w-full justify-center lg:block'>
+            <div className='mb-20 sm:mb-28 lg:mb-32 flex w-full justify-center lg:block'>
               <button className='bg-[#1c69d4] hover:bg-[#1653a8] w-full md:w-[35%] lg:w-[25%] py-4 text-base rounded-sm font-Poppins text-white font-semibold'>Scopri di più</button>
             </div>
           </div>
