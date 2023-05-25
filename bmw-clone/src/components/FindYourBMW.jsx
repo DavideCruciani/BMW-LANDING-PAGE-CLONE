@@ -12,17 +12,17 @@ const FindYourBMW = () => {
       </div>
       <div className='grid grid-cols-1 lg:grid-cols-3'>
         <div className='px-2'>
-          <img src={Stock} alt="Trova una Nuova BMW" />
+          <img src={Stock} alt="Trova una Nuova BMW" loading="lazy" />
           <p className='text-lg xl:text-xl 2xl:text-2xl mb-10'>Trova una Nuova BMW</p>
           <button className='border-[1px] w-full md:w-auto hover:shadow-buttonBlack border-black px-2 sm:px-6 py-4 text-base font-semibold rounded-[3px]'>Vetture disponibili</button>
         </div>
         <div className='px-2'>
-          <img src={testDrive} alt="Prenota un Test Drive" />
+          <img src={testDrive} alt="Prenota un Test Drive" loading="lazy" />
           <p className='text-lg xl:text-xl 2xl:text-2xl mb-10'>Prenota un Test Drive</p>
           <button className='border-[1px] w-full md:w-auto hover:shadow-buttonBlack border-black px-2 sm:px-6 py-4 text-base font-semibold rounded-[3px]'>Test Drive</button>
         </div>
         <div className='px-2'>
-          <img src={Con} alt="Configura la Tua BMW" />
+          <img src={Con} alt="Configura la Tua BMW" loading="lazy" />
           <p className='text-lg xl:text-xl 2xl:text-2xl mb-10'>Configura la Tua BMW</p>
           <button className='border-[1px] w-full md:w-auto hover:shadow-buttonBlack border-black px-2 sm:px-6 py-4 text-base font-semibold rounded-[3px]'>Configuratore & prezzo</button>
         </div>

@@ -10,10 +10,10 @@ const Electric = () => {
       <section className='relative max-w-[2600px] mx-auto bg-center w-full bg-no-repeat mb-10'>
         
         <picture>
-          <source media='(min-width: 1536px)' srcSet={electricIMG2560} className='bg-cover bg-no-repeat w-full' />
-          <source media='(min-width: 1024px)' srcSet={electricIMG1504} className='bg-cover bg-no-repeat w-full' />
-          <source media='(min-width: 768px)' srcSet={electricIMG1024} className='bg-cover bg-no-repeat w-full' />
-          <img className='bg-contain bg-no-repeat w-full' src={electricIMG} alt="/" />
+          <source media='(min-width: 1536px)' srcSet={electricIMG2560} className='bg-cover bg-no-repeat w-full' loading="lazy" />
+          <source media='(min-width: 1024px)' srcSet={electricIMG1504} className='bg-cover bg-no-repeat w-full' loading="lazy" />
+          <source media='(min-width: 768px)' srcSet={electricIMG1024} className='bg-cover bg-no-repeat w-full' loading="lazy" />
+          <img className='bg-contain bg-no-repeat w-full' src={electricIMG} alt="/" loading="lazy" />
         </picture>
 
         <div className='h-full w-full bg-gradient-top lg:bg-gradient-70deg lg:from-[#0006] px-4 md:px-12 xl:px-22 lg:to-transparent font-Poppins leading-[4rem] text-white flex flex-col lg:flex-row justify-end lg:justify-normal items-center text-center lg:text-start absolute top-0'>

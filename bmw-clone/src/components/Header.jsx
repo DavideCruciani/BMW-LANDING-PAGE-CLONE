@@ -5,13 +5,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faChevronRight, faXmark, faLocationDot, faMagnifyingGlass, faShoppingCart, faUser } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
-
+/* RESPONSIVE MOBILE NAVBAR */
   const [showNav, setShowNav] = useState(false)
 
   function ShowNavbar() {
     setShowNav(!showNav)
   }
-
+/* NAVBAR CLOSE WHEN SCREEN SIZE IS RESIZED */
   useEffect(() => {
     function handleResize() {
       setShowNav(false);
@@ -40,11 +40,11 @@ const Header = () => {
 
           <div>
             <ul className='flex h-full'>
-              <li className='p-4 h-full flex items-center cursor-pointer border-b-[4px] border-t-[4px] border-transparent hover:border-b-[#1c69d4]'><FontAwesomeIcon icon={faUser} style={{color: "#ffffff",}} size='sm' /></li>
-              <li className='p-4 h-full flex items-center cursor-pointer border-b-[4px] border-t-[4px] border-transparent hover:border-b-[#1c69d4]'><FontAwesomeIcon icon={faShoppingCart} style={{color: "#ffffff",}} size='sm' /></li>
-              <li className='p-4 h-full flex items-center cursor-pointer border-b-[4px] border-t-[4px] border-transparent hover:border-b-[#1c69d4]'><FontAwesomeIcon icon={faLocationDot} style={{color: "#ffffff",}} size='sm' /></li>
-              <li className='p-4 h-full flex items-center cursor-pointer border-b-[4px] border-t-[4px] border-transparent hover:border-b-[#1c69d4]'><FontAwesomeIcon icon={faMagnifyingGlass} style={{color: "#ffffff",}} size='sm' /></li>
-              <li onClick={() => {ShowNavbar()}} className='p-4 h-full flex items-center cursor-pointer border-b-[4px] border-t-[4px] border-transparent hover:border-b-[#1c69d4] xl:hidden'><FontAwesomeIcon icon={faBars} style={{color: "#ffffff",}} size='lg' /></li>
+              <li className='p-4 h-full flex items-center cursor-pointer border-b-[4px] border-t-[4px] border-transparent hover:border-b-[#1c69d4]'><FontAwesomeIcon icon={faUser} style={{color: "#ffffff",}} size='sm' aria-label="User"/></li>
+              <li className='p-4 h-full flex items-center cursor-pointer border-b-[4px] border-t-[4px] border-transparent hover:border-b-[#1c69d4]'><FontAwesomeIcon icon={faShoppingCart} style={{color: "#ffffff",}} size='sm' aria-label="Shopping cart"/></li>
+              <li className='p-4 h-full flex items-center cursor-pointer border-b-[4px] border-t-[4px] border-transparent hover:border-b-[#1c69d4]'><FontAwesomeIcon icon={faLocationDot} style={{color: "#ffffff",}} size='sm' aria-label="Location Dot" /></li>
+              <li className='p-4 h-full flex items-center cursor-pointer border-b-[4px] border-t-[4px] border-transparent hover:border-b-[#1c69d4]'><FontAwesomeIcon icon={faMagnifyingGlass} style={{color: "#ffffff",}} size='sm' aria-label="Search"/></li>
+              <li onClick={() => {ShowNavbar()}} className='p-4 h-full flex items-center cursor-pointer border-b-[4px] border-t-[4px] border-transparent hover:border-b-[#1c69d4] xl:hidden'><FontAwesomeIcon icon={faBars} style={{color: "#ffffff",}} size='lg' aria-label="Menu Bars" /></li>
             </ul>
           </div>
         </nav>

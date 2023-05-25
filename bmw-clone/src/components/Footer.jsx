@@ -9,7 +9,6 @@ const Footer = () => {
 
   function ShowInfo(index) {
     SetShowInfo(index)
-    console.log(showInfo);
   }
 
   return (

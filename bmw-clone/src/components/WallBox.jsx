@@ -5,7 +5,7 @@ const WallBox = () => {
   return (
     <section className='grid grid-cols-1 lg:grid-cols-2 font-Poppins text-[#262626] max-w-[2600px] mx-auto px-4 md:px-12 xl:px-22 mb-10'>
       <div className='px-4'>
-        <img src={WallBoxIMG} alt="Bmw wallbox" />
+        <img src={WallBoxIMG} alt="Bmw wallbox" loading="lazy" />
       </div>
 
       <div className='flex flex-col justify-center px-4 mt-12 lg:mt-0'>

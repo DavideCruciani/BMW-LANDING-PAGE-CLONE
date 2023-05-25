@@ -11,7 +11,7 @@ const Hero = () => {
       <picture>
         <source media='(min-width: 1024px)' srcSet={hero} className='bg-cover bg-no-repeat w-full' />
         <source media='(min-width: 768px)' srcSet={hero1024} className='bg-cover bg-no-repeat w-full' />
-        <img className='bg-contain bg-no-repeat w-full' src={hero600} alt="/" />
+        <img className='bg-contain bg-no-repeat w-full' src={hero600} alt="Nuova bmw serie 7 M"/>
       </picture>
 
       <div className='w-full h-full bg-gradient-top lg:bg-gradient-70deg lg:from-[#0006] to-transparent absolute top-0'>
