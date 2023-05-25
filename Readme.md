@@ -23,7 +23,7 @@ Questo progetto consiste in un clone della landing page di BMW, realizzato come 
 1. Clona la repository sul tuo computer:
 
 ```bash
-git clone <url-del-repository>
+git clone git@github.com:DavideCruciani/BMW-LANDING-PAGE-CLONE.git
 ```
 
 2. Entra nella cartella del progetto:
