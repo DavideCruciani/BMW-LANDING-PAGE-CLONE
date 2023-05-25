@@ -12,11 +12,11 @@ Questo progetto consiste in un clone della landing page di BMW, realizzato come 
 
 ## Tecnologie utilizzate
 
-HTML5
-CSS3
-JavaScript
-REact.js
-Bootstrap
+-HTML5
+-CSS3
+-JavaScript
+-REact.js
+-Bootstrap
 
 ## Setup del Progetto
 
