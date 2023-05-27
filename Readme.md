@@ -1,4 +1,4 @@
-# Clone della Landing Page di BMW
+# Landing Page di BMW (Clone)
 
 Questo progetto consiste in un clone della landing page di BMW, realizzato come esercizio di pratica e apprendimento delle tecniche di sviluppo web. La replica è completamente responsiva per dispositivi mobili e iPad.
 
