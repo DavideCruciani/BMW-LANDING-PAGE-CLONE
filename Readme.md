@@ -6,7 +6,7 @@ Questo progetto consiste in un clone della landing page di BMW, realizzato come 
 
 -Navbar responsiva che si adatta automaticamente a diverse dimensioni di schermo, compresi dispositivi mobili e iPad.
 
--Footer responsivo che offre un layout ottimizzato per visualizzare i contenuti su dispositivi mobili e iPad.
+-Footer responsivo che offre un layout ottimizzato per visualizzare i contenuti su dispositivi mobile e iPad.
 
 -Design fedele all'originale, cercando di replicare l'aspetto e il comportamento della landing page di BMW.
 
